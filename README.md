@@ -4,8 +4,6 @@ Example project for getting started with Spring Cloud Functions.
 
 This project comes directly from the [azure example project](https://github.com/Azure/azure-functions-java-worker/tree/dev/samples/spring-cloud-example) and [MS learn article](https://learn.microsoft.com/en-us/azure/developer/java/spring-framework/getting-started-with-spring-cloud-function-in-azure) but is modified to be more up to date and a bit easier to follow.
 
-This article guides you through using [Spring Cloud Functions](https://spring.io/projects/spring-cloud-function) to develop a Java function and publish it to Azure Functions. When you're done, your function code runs on the [Consumption Plan](/azure/azure-functions/functions-scale#consumption-plan) in Azure and can be triggered using an HTTP request.
-
 ## Prerequisites
 
 To develop functions using Java, you must have the following installed:
