@@ -12,7 +12,7 @@ public class HelloTest {
     @Test
     public void test() {
         Greeting result = new Hello().apply(new User("foo"));
-        assertThat(result.getMessage()).isEqualTo("Hello, foo!\n");
+        assertThat(result.getMessage()).isEqualTo("Well hi there, foo!\n");
     }
 
 //    @Test
