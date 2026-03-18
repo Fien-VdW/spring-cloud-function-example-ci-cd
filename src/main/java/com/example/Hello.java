@@ -10,6 +10,6 @@ import java.util.function.Function;
 public class Hello implements Function<User, Greeting> {
 
     public Greeting apply(User user) {
-        return new Greeting("Hello, " + user.getName() + "!\n");
+        return new Greeting("Well hi there, " + user.getName() + "!\n");
     }
 }
